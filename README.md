@@ -62,7 +62,7 @@ final bool isExpanded = expandedIndex == index;
 
 👉 [Click here to watch the demo video](https://drive.google.com/file/d/1KZXUcZ3Hm4wsx0dNbSCWVeOe1EZ7DbtF/view?usp=drive_link)
 
-## 📦 APK Download
+## 📦 APK Download (Only on Mobile)
 
 👉 [Download APK](https://drive.google.com/file/d/1dNLgybI8ZkLUTCOfmaGR1B-JrPfH6Pfa/view?usp=drive_link)
 
