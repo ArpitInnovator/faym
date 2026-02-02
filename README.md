@@ -58,6 +58,15 @@ final bool isExpanded = expandedIndex == index;
 ![WhatsApp Image 2026-02-03 at 02 24 03](https://github.com/user-attachments/assets/6906911e-4ac8-4d4f-8dd7-c11253b76747)
 
 
+## 📽 Demo Video
+
+👉 [Click here to watch the demo video](https://drive.google.com/file/d/1KZXUcZ3Hm4wsx0dNbSCWVeOe1EZ7DbtF/view?usp=drive_link)
+
+## 📦 APK Download
+
+👉 [Download APK](https://drive.google.com/file/d/1dNLgybI8ZkLUTCOfmaGR1B-JrPfH6Pfa/view?usp=drive_link)
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
