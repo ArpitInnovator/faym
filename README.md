@@ -1,16 +1,77 @@
-# faym
+# Faym
 
-A new Flutter project.
+A Flutter application that displays a list of product collections using an **accordion-style UI**, where each collection can be expanded or collapsed to reveal product images with smooth animations.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📋 Scrollable list of collection cards  
+- 🪗 Accordion-style expand & collapse behavior  
+- 🔽 Only **one collection expanded at a time**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Project Structure
+
+```text
+lib/
+├── main.dart
+├── collections_list.dart
+├── models/
+│   └── collection_model.dart
+├── screens/
+│   └── collection_screen.dart
+└── widgets/
+    └── collection_card.dart
+```
+
+## 🪗 Accordion Logic
+
+The screen follows an **accordion-style UI**, where only **one collection card** can be expanded at a time.
+
+### State Management
+An integer variable is used to track the currently expanded collection:
+
+```dart
+
+//Toggle logic
+int expandedIndex = -1;
+
+onTap: () {
+  setState(() {
+    expandedIndex =
+        expandedIndex == index ? -1 : index;
+  });
+}
+
+//UI rendering logic
+final bool isExpanded = expandedIndex == index;
+
+
+```
+
+## 🖼 App Screenshots
+
+### Collapsed State
+![WhatsApp Image 2026-02-03 at 02 57 31](https://github.com/user-attachments/assets/b9549800-4f24-47cf-9a44-44d22e4bb357)
+
+### Expanded State
+![WhatsApp Image 2026-02-03 at 02 24 03](https://github.com/user-attachments/assets/6906911e-4ac8-4d4f-8dd7-c11253b76747)
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- Android Studio or VS Code
+- Emulator or physical device
+
+### Installation & Run
+
+```bash
+flutter pub get
+flutter run
+
+
+
+
